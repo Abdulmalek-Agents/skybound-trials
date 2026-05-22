@@ -6,7 +6,7 @@
 |---|---|
 | **Genre** | Parkour Platformer (PEAK / Only Up / Roblox obby lane) |
 | **Platforms** | PC (Steam) primary |
-| **Engine** | Unity 2022.3 LTS + URP |
+| **Engine** | Unity **6 LTS (6000.4.4f1)** + URP |
 | **Target frame-rate** | 60+ fps integrated GPU |
 | **Mission 1 scope** | First sky-isle tutorial trial, 3 checkpoints, ~6 min run |
 | **Designed for** | 6 missions (sky-isles escalating in challenge) |
@@ -26,7 +26,7 @@ Details in `docs/01_IDEATION_AND_TRENDS.md`.
 ## Quick start
 
 1. Read `docs/07_UNITY_SETUP_GUIDE.md`.
-2. Unity 2022.3 LTS URP; copy `Assets/_Project/`.
+2. Unity **6 LTS (6000.4.4f1)** URP; copy `Assets/_Project/`.
 3. Import: **Obby Parkour Mega Pack**, Character Controller Pro, Traversal Pro, Toon Town, Casual RPG VFX, Stylized Weather System, Heat UI, Game UI & Puzzle SFX, BoZo Characters — from inventory.
 4. Open `Scenes/Bootstrap.unity`.
 
@@ -40,4 +40,5 @@ Details in `docs/01_IDEATION_AND_TRENDS.md`.
 | GDD v1.0 approved | ✅ |
 | Architecture & scripts | ✅ |
 | v0.2 — runtime LLM removed, Coach uses LineBanks | ✅ |
+| v0.2.1 — Unity 6 LTS (6000.4.4f1) target | ✅ |
 | Mission 1 'First Trial' authored | ⏳ |

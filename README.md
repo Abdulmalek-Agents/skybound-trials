@@ -10,7 +10,8 @@
 | **Target frame-rate** | 60+ fps integrated GPU |
 | **Mission 1 scope** | First sky-isle tutorial trial, 3 checkpoints, ~6 min run |
 | **Designed for** | 6 missions (sky-isles escalating in challenge) |
-| **AI co-pilot** | Claude-powered Coach — motivational or heckling, your choice |
+| **Runtime AI features** | **None** — the shipping game is fully offline. Coach Sky draws from hand-authored Motivator & Heckler line banks. |
+| **AI in development** | Claude Code & Claude Agents are used by the studio. See [docs/05_AI_ASSISTED_DEVELOPMENT.md](docs/05_AI_ASSISTED_DEVELOPMENT.md). |
 
 ## Why this game
 
@@ -27,8 +28,9 @@ Details in `docs/01_IDEATION_AND_TRENDS.md`.
 1. Read `docs/07_UNITY_SETUP_GUIDE.md`.
 2. Unity 2022.3 LTS URP; copy `Assets/_Project/`.
 3. Import: **Obby Parkour Mega Pack**, Character Controller Pro, Traversal Pro, Toon Town, Casual RPG VFX, Stylized Weather System, Heat UI, Game UI & Puzzle SFX, BoZo Characters — from inventory.
-4. `cd server/copilot-proxy && npm install && npm run dev`.
-5. Open `Scenes/Bootstrap.unity`.
+4. Open `Scenes/Bootstrap.unity`.
+
+> No proxy server, no API key, no internet config required.
 
 ## Status
 
@@ -37,4 +39,5 @@ Details in `docs/01_IDEATION_AND_TRENDS.md`.
 | Concept locked (3 critic cycles) | ✅ |
 | GDD v1.0 approved | ✅ |
 | Architecture & scripts | ✅ |
+| v0.2 — runtime LLM removed, Coach uses LineBanks | ✅ |
 | Mission 1 'First Trial' authored | ⏳ |
